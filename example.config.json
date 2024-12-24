@@ -1,0 +1,19 @@
+{
+    "ArbiterPort": 7000,
+    "BaseUrl": "http://www.moonic.wtf",
+    "MachineAddress": "109.71.252.118",
+    "RCCService": {
+        "VersionPaths": {
+            "2016": "C:\\ecosim_builds\\RCCService\\",
+            "Renderer": "C:\\ecosim_builds\\RCCService\\"
+        },
+        "SOAP": {
+            "StartPort": 30000,
+            "EndPort": 40000
+        },
+        "GameServer": {
+            "StartPort": 40000,
+            "EndPort": 50000
+        }
+    }
+}

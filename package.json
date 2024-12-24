@@ -1,0 +1,27 @@
+{
+  "name": "arbiter",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "pino-pretty": "^11.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@megahdrive/rccclient-node": "https://github.com/megahdrive/rccclient-node",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^10.0.0",
+    "bfj": "^8.0.0",
+    "child_process": "^1.0.2",
+    "express": "^4.21.0",
+    "pino": "^9.4.0",
+    "uuid": "^10.0.0"
+  },
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun index.ts | pino-pretty"
+  }
+}
