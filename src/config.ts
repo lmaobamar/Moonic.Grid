@@ -32,6 +32,7 @@ function validateConfig(config: any): config is Config {
     return (
         typeof config.ArbiterPort === 'number' &&
         typeof config.BaseUrl === 'string' &&
+        typeof config.MachineAddress === 'string' &&
         typeof config.RCCService === 'object' &&
         typeof config.RCCService.VersionPaths === 'object' &&
         Object.values(config.RCCService.VersionPaths).every(path => typeof path === 'string') &&
